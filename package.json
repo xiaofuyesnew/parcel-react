@@ -4,5 +4,17 @@
   "main": "index.js",
   "repository": "git@github.com:xiaofuyesnew/parcel-react.git",
   "author": "xiaofuyesnew <xiaofuyesnew@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.5.1"
+  },
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  }
 }
