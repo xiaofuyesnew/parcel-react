@@ -1,0 +1,8 @@
+{
+  "name": "parcel-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xiaofuyesnew/parcel-react.git",
+  "author": "xiaofuyesnew <xiaofuyesnew@qq.com>",
+  "license": "MIT"
+}
