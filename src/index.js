@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import './index.scss';
 
-class HelloMessage extends React.Component {
+export default class HelloMessage extends React.Component {
     render() {
-        return <div>Hello {this.props.name}</div>;
+        return <div className="test">Hello {this.props.name}</div>;
     }
 }
 
-var mountNode = document.getElementById("app");
-ReactDOM.render(<HelloMessage name="Allen" />, mountNode);
+const mountNode = document.getElementById("app");
+var a = 'haha';
+
+ReactDOM.render(<HelloMessage name={a} />, mountNode);
