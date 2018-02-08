@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 let a = '张三',
     b = '李四',
-    parta = '脑袋',
+    parta = '脑袋子',
     partb = '脚丫子';
 
 export default class Main extends React.Component {
