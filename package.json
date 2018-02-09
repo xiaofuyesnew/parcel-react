@@ -18,6 +18,6 @@
   },
   "scripts": {
     "start": "rm -rf ./dist/* !(./dist/.gitkeep) && parcel ./src/index.html",
-    "build": ""
+    "build": "rm -rf ./build/* !(./build/.gitkeep) && parcel build ./src/index.html -d build"
   }
 }
